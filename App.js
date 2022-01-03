@@ -137,6 +137,8 @@ const styles = StyleSheet.create({
     bottom: 0,
     backgroundColor: '#3B6D82',
     borderRadius: 35,
+    borderBottomLeftRadius: 0,
+    borderBottomRightRadius: 0
   },
   assignmentGuideContainer:{
     width: '80%',
@@ -213,9 +215,10 @@ const styles = StyleSheet.create({
     color: '#2C485B'
   },
   selectedSoultionText:{
-    fontSize: 18,
+    fontSize: 8,
     fontWeight: '600',
-    color: '#6391A6'
+    color: '#6391A6',
+    alignSelf: 'center'
   },
   bottomButtonContainer:{
     width: '80%',
@@ -253,6 +256,8 @@ const styles = StyleSheet.create({
     width: '110%',
     backgroundColor: '#0FDFE8',
     borderRadius: 20,
+    borderBottomLeftRadius: 0,
+    borderBottomRightRadius: 0
   },
   modalTxt:{
     marginLeft: '10%',
